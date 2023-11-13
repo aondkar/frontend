@@ -1,0 +1,123 @@
+/*///////////////////// ESSENTIAL STYLES ////////////////////////*/
+
+html, body {
+  height: 100%;
+}
+
+.sidenav {
+  position: fixed;
+  right: 0;
+  width: 0px;
+  display: none;
+  z-index: 999;
+  background-color: #ffffff;
+  box-shadow: 200px 10px 175px 380px #000000cc;
+  transition: .5s;
+  /* .flex-column */
+  -webkit-box-orient: vertical!important;
+  -webkit-box-direction: normal!important;
+  -ms-flex-direction: column!important;
+  flex-direction: column!important;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////// OPTIONAL STYLES ////////////////////////*/
+
+.bg-fullscreen {
+  background-color: #ffffff;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.overlay-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color:#inherit;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-shadow: 0px 0px 2px #ffffff;
+}
+
+.navbar {
+  box-shadow: 0px 0px 10px 2px #000000ad;
+  background-color: white;
+}
+.nav-link {
+  color: inherit;
+  text-align: center;
+  transition: .3s;
+}
+.nav-link:hover {
+  color: white;
+  background-color: #000000;
+  box-shadow: 0px 0px 4px 1px #ffffff85;
+  text-shadow: 0px 0px 1px white;
+}
+
+.navbar-toggler {
+  transition: .5s;
+  border: 2px solid #000000;
+  color: #000000;
+}
+.navbar-toggler:hover {
+  box-shadow: 0px 0px 4px 2px #ffffff85;
+  text-shadow: 0px 0px 2px white;
+}
+
+.sidenav .nav-link {
+  color: black;
+  white-space: nowrap;
+  transition: .3s;
+}
+.sidenav .nav-link:hover {
+  background-color: #a7a7a766;
+  color: black;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+  line-height: 160px;
+  background-color: #00000057;
+  z-index: 1030;
+  box-shadow: 0px 0px 10px 2px #000000ad;
+  color: lightgray;
+  text-shadow: 0px 0px 1px white;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  font-size: 1.25rem;
+}
+
+.btn-outline-light {
+  border: none;
+}
+.btn-outline-light:hover {
+  color: white;
+  border-radius: 0px;
+  box-shadow: 0px 0px 4px 1px #ffffff85;
+  text-shadow: 0px 0px 1px white;
+}
+
+.login-top-menu{
+  
+}
